@@ -1,0 +1,179 @@
+```css
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f3efe7;
+display:flex;
+flex-direction:column;
+align-items:center;
+padding-top:40px;
+}
+
+/* HEADER */
+
+.logoHeader{
+display:flex;
+align-items:center;
+gap:15px;
+margin-bottom:25px;
+}
+
+.logoBox{
+background:#2e6b4f;
+width:55px;
+height:55px;
+border-radius:12px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:26px;
+color:white;
+}
+
+.logoHeader h1{
+font-size:32px;
+color:#264d39;
+}
+
+.logoHeader p{
+letter-spacing:2px;
+font-size:12px;
+color:#4b7b63;
+}
+
+/* CARD */
+
+.card{
+background:white;
+padding:35px;
+border-radius:20px;
+width:420px;
+box-shadow:0 8px 30px rgba(0,0,0,0.08);
+}
+
+/* STEP BAR */
+
+.stepBar{
+display:flex;
+gap:10px;
+margin-bottom:25px;
+}
+
+.stepBar div{
+height:6px;
+width:40px;
+background:#d7ded9;
+border-radius:5px;
+}
+
+.stepBar .active{
+background:#5ca67a;
+}
+
+/* TEXT */
+
+h2{
+color:#2f4f3f;
+margin-bottom:8px;
+}
+
+.subText{
+color:#5d6f64;
+font-size:14px;
+margin-bottom:25px;
+}
+
+/* FORM */
+
+label{
+display:block;
+margin-top:15px;
+font-size:13px;
+color:#2c4d3f;
+letter-spacing:1px;
+}
+
+input,select{
+width:100%;
+padding:12px;
+margin-top:5px;
+border-radius:10px;
+border:1px solid #c7d4cb;
+background:#f8f7f3;
+}
+
+/* BUTTON */
+
+.mainBtn{
+margin-top:25px;
+width:100%;
+padding:14px;
+border:none;
+border-radius:14px;
+background:linear-gradient(135deg,#1f4e36,#3d7a59);
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+/* RESULT BOX */
+
+#resultBox{
+display:none;
+margin-top:30px;
+background:#f6f4ef;
+border:2px solid #cde2d5;
+border-radius:16px;
+padding:20px;
+}
+
+#resultBox h3{
+margin-bottom:15px;
+color:#2c4e3a;
+}
+
+/* RECOMMENDATION CARDS */
+
+.recCard{
+display:flex;
+gap:12px;
+padding:12px 0;
+border-bottom:1px solid #ddd;
+}
+
+.recCard:last-child{
+border-bottom:none;
+}
+
+.badge{
+background:#3e7a58;
+color:white;
+padding:5px 12px;
+border-radius:12px;
+font-size:12px;
+}
+
+/* SOIL NOTE */
+
+.soilNote{
+margin-top:12px;
+background:#e8e2d8;
+padding:12px;
+border-radius:10px;
+display:flex;
+gap:10px;
+}
+
+.soilBadge{
+background:#8b5e3c;
+color:white;
+padding:5px 12px;
+border-radius:10px;
+font-size:12px;
+}
+```

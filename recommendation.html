@@ -1,0 +1,103 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AgroAid Recommendation</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="logoHeader">
+
+<div class="logoBox">🌿</div>
+
+<div>
+<h1>AgroAid</h1>
+<p>SMART FERTILIZER GUIDE</p>
+</div>
+
+</header>
+
+
+<div class="card">
+
+<div class="stepBar">
+<div></div>
+<div class="active"></div>
+</div>
+
+<h2>Crop & Soil Details</h2>
+
+<p id="welcomeUser" class="subText"></p>
+
+
+<form id="cropForm">
+
+<label>CROP TYPE</label>
+
+<select id="crop">
+<option value="">-- Select crop --</option>
+<option value="rice">Rice</option>
+<option value="wheat">Wheat</option>
+<option value="maize">Maize</option>
+<option value="cotton">Cotton</option>
+<option value="potato">Potato</option>
+<option value="tomato">Tomato</option>
+<option value="soybean">Soybean</option>
+<option value="sugarcane">Sugarcane</option>
+</select>
+
+
+<label>SOIL TYPE</label>
+
+<select id="soil">
+<option value="">-- Select soil type --</option>
+<option value="alluvial">Alluvial</option>
+<option value="black">Black</option>
+<option value="red">Red</option>
+<option value="sandy">Sandy</option>
+<option value="clay">Clay</option>
+<option value="loamy">Loamy</option>
+</select>
+
+
+<label>GROWTH STAGE</label>
+
+<select id="stage">
+<option value="">-- Select stage --</option>
+<option value="seedling">Seedling</option>
+<option value="vegetative">Vegetative</option>
+<option value="flowering">Flowering</option>
+<option value="fruiting">Fruiting</option>
+</select>
+
+
+<button type="submit" class="mainBtn">
+🌾 Get Recommendation
+</button>
+
+</form>
+
+
+<div id="resultBox">
+
+<h3>🧪 Fertilizer Recommendations</h3>
+
+<div id="recList"></div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
